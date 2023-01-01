@@ -1,21 +1,25 @@
 import React from 'react';
 import Nike from "../../images/Nike.jpg";
+import {Link } from "react-router-dom";
 
 export const Header = () => {
     return (
+    
         <header>
-            <a href='#'>
+        
+      
+            <Link to='#'>
                 <div className='logo'>
                     <img src={Nike} alt='logo' width="150" />
 
                 </div>
-            </a>
+            </Link>
             <ul>
                 <li>
-                    <a href='#'>INICIO</a>
+                    <Link to='/'>INICIO</Link>
                 </li>
                 <li>
-                    <a href='#'>PRODUCTOS</a>
+                    <Link to='/Productos'>PRODUCTOS</Link>
                 </li>
 
 
@@ -25,8 +29,10 @@ export const Header = () => {
                 <span className='item__total'>0</span>
 
             </div>
-
+            
+     
         </header>
+       
 
     );
 }
