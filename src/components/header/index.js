@@ -8,7 +8,7 @@ export const Header = () => {
         <header>
         
       
-            <Link to='#'>
+            <Link to='/'>
                 <div className='logo'>
                     <img src={Nike} alt='logo' width="150" />
 

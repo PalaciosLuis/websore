@@ -104,6 +104,24 @@ header .cart span {
   background-color: crimson;
 
 }
+/*================INICIO==========================*/
+
+.inicio{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 9rem;
+
+}
+.inicio h1{
+  font-size: 2.5rem;
+  color: #08a05ca4;
+
+}
+.inicio img{
+  width: 100%;
+  
+
+}
 
 /*----------------PRODUCTOS----------------------*/
 .title{
@@ -120,6 +138,7 @@ header .cart span {
   gap: 3rem 2rem;
   box-sizing: border-box;
 }
+  
 .producto{
   display: flex;
   width: 100%;
@@ -128,6 +147,7 @@ header .cart span {
   box-shadow: 1px 10px 10px 2px rgba(0, 0, 0, .2);
   border: 6px solid transparent;
   border-radius: 5px;
+  
 }
 
 .producto:hover{
